@@ -11,6 +11,20 @@
   margin-bottom: 10vh;
   color: black;
 }
+/*-------------alan---------------*/
+.alan-intro {
+  width: 40vw;
+  margin-left: 26vw;
+  text-align: center;
+  padding: 5vh;
+  height: 15vh;
+  line-height: 1.5;
+  color: rgb(5, 5, 5);
+  border: 1px solid rgb(63, 59, 58);
+  background-color: rgb(231, 230, 230);
+  border-radius: 20px;
+  box-shadow: 2px 1px;
+}
 
 /*/////////////////////   END OF MAP CSS //////////////*/ /**/
 
@@ -151,29 +165,6 @@ nav ul li:hover {
   text-align: center;
 }
 
-/*  ------------------- Rover Styling---------------------MARS COMPONENT----------         */
-.rover-compo-container {
-  background-color: rgb(7, 5, 2);
-  display: grid;
-
-  gap: 10px;
-}
-.rover-container {
-  color: aliceblue;
-  text-align: center;
-}
-.rover-img {
-  width: 60%;
-  height: 500px;
-  padding: 10px;
-}
-.btn-bar-down {
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 30px;
-}
-
 /*-------------------------------NASA MEDIA ( TEST API)-----------------------------*/
 .nasa-media-container {
   margin-top: 2vh;
@@ -206,7 +197,12 @@ nav ul li:hover {
   color: white;
 }
 .nasa-media-index {
-  color: black;
+  color: whitesmoke;
+  border: 1px solid;
+  width: 13px;
+  text-align: center;
+  border-radius: 20%;
+  background-color: black;
 }
 
 .img-des {
@@ -244,4 +240,103 @@ nav ul li:hover {
   text-align: center;
 }
 @media only screen and (max-width: 600px) {
+  /*   STYLING HOME PAGE ----------------------------------- HOME PAGE----*/
+
+  .home-page {
+    background-image: url("./images/nasa.jpg");
+    background-position: center;
+  }
+
+  /*    HEADER STYLING ---------------------------HEADER------------- */
+
+  .ul-header {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+  }
+  .header-page {
+    padding-bottom: 2vh;
+  }
+  nav ul li {
+    padding-top: 15px;
+    height: 5vh;
+    width: 15vw;
+
+    margin-top: 3vh;
+  }
+  .popup {
+    height: 12vh;
+    width: 13vw;
+
+    font-size: 0.8rem;
+    margin-bottom: 5vh;
+  }
+
+  /*/////////////////////   END OF MAP CSS //////////////*/ /**/
+  /*  MAP PAGE EVENTS TRACKER STARTS  --------------------------    MAP COMPONENT---------*/
+
+  .crater-btn,
+  .snow-btn,
+  .fire-btn,
+  .volcano-btn,
+  .quake-btn,
+  .storm-btn {
+    z-index: 9999;
+    width: 20vw;
+
+    background-color: rgba(255, 254, 254, 0.6);
+  }
+
+  /*----------------       ASTRONOMY COMPONENT-      -------------------------------*/
+
+  .astronomy-content-container {
+    display: block;
+  }
+  .date-picker {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+  }
+  .astronomy-btn {
+    height: 4vh;
+    width: 20vw;
+  }
+
+  .astro-explanation {
+    width: 94%;
+
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+  }
+  /*-------------------------------NASA MEDIA ( TEST API)-----------------------------*/
+  .nasa-media-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .nasa-media-btn {
+    margin-left: 21vw;
+  }
+  /*------------------------------CHART COMPONENT------------------------ */
+  .graph-container {
+    padding-top: 5vh;
+    background-color: rgb(207, 210, 212);
+    height: 85vh;
+  }
+  .btn-container {
+    margin-left: 26vw;
+    margin-top: 3vh;
+  }
+  .line-btn,
+  .bar-btn {
+    margin-right: 1vw;
+    height: 5vh;
+    width: 20vw;
+  }
+  .line-btn:hover,
+  .bar-btn:hover {
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+  }
+  .graph-title {
+    text-align: center;
+  }
 }

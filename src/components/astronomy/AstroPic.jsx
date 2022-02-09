@@ -42,13 +42,6 @@ const AstroPic = () => {
     <div className="astronomy-content-container">
       {/* <div>date :{results.date}</div>
       <div>description {results.explanation}</div> */}
-      <div className="astro-explanation">
-        <h2 className="astro-title">{results.title}</h2>
-        <h4 className="astro-date">{results.date}</h4>
-        <div>
-          <span>{results.explanation}</span>
-        </div>
-      </div>
 
       <div className="media-container-astronomy">
         <div className="date-picker">
@@ -79,6 +72,14 @@ const AstroPic = () => {
             <ReactPlayer width="100%" height="80vh" url={results.url} />
           </div>
         )}
+      </div>
+
+      <div className="astro-explanation">
+        <h2 className="astro-title">{results.title}</h2>
+        <h4 className="astro-date">{results.date}</h4>
+        <div>
+          <span>{results.explanation}</span>
+        </div>
       </div>
     </div>
   );

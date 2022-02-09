@@ -4,7 +4,7 @@ import Map from "../components/Map/Map";
 import Header from "../components/pages/Header";
 import AstroPic from "../components/astronomy/AstroPic";
 import TestApi from "../components/test/TestApi";
-import MarsRoverPhotos from "../components/mars/MarsRoverPhotos";
+
 import Alan from "../components/alan-reader/Alan";
 
 import GetData from "../components/Map/GetData";
@@ -18,7 +18,7 @@ const Routings = () => (
       <Route path="/getData" element={<GetData />} />
       <Route path="/map" element={<Map />} />
       <Route path="/astroPic" element={<AstroPic />} />
-      <Route path="/marsRoverPhotos" element={<MarsRoverPhotos />} />
+
       <Route path="testApi" element={<TestApi />} />
     </Routes>
   </Router>

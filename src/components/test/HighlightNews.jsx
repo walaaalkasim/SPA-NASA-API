@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useState, createRef, useRef } from "react";
+import { useEffect, useState, createRef } from "react";
 import { useContext } from "react";
 import useStyles from "./styles";
 import MyContext from "../../context/MyContext";
@@ -8,9 +8,10 @@ const HighlightNews = ({ i, article }) => {
   const classes = useStyles();
 
   const context = useContext(MyContext);
-  const { activeArticle, setActiveArticle } = context;
+  const { activeArticle } = context;
   const [elRefs, setElRefs] = useState([]);
   const scrollToRef = (ref) => window.scroll(0, ref.current.offsetTop - 300);
+
   useEffect(() => {
     window.scroll(0, 0);
 

@@ -45,6 +45,7 @@ const Alan = () => {
       },
     });
   }, [videoLinkMedia]);
+
   return <div></div>;
 };
 
