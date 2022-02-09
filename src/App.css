@@ -1,0 +1,247 @@
+/*  MAP CSS */
+.leaflet-container {
+  width: 100%;
+  height: 90vh;
+}
+.popup {
+  height: 10vh;
+  width: 6vw;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 10vh;
+  color: black;
+}
+
+/*/////////////////////   END OF MAP CSS //////////////*/ /**/
+
+/*  MAP PAGE EVENTS TRACKER STARTS  --------------------------    MAP COMPONENT---------*/
+
+.fire-btn {
+  margin-top: 12vh;
+}
+.volcano-btn {
+  margin-top: 18vh;
+}
+.snow-btn {
+  margin-top: 24vh;
+}
+.storm-btn {
+  margin-top: 30vh;
+}
+.quake-btn {
+  margin-top: 36vh;
+}
+.crater-btn {
+  margin-top: 42vh;
+}
+.crater-btn,
+.snow-btn,
+.fire-btn,
+.volcano-btn,
+.quake-btn,
+.storm-btn {
+  z-index: 9999;
+  width: 6vw;
+  height: 5vh;
+  position: absolute;
+  margin-left: 0.5vw;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgba(255, 254, 254, 0.2);
+}
+.crater-btn:hover,
+.snow-btn:hover,
+.fire-btn:hover,
+.volcano-btn:hover,
+.quake-btn:hover,
+.storm-btn:hover {
+  background-color: black;
+  color: antiquewhite;
+}
+
+.more-info-btn a {
+  text-decoration: none;
+}
+
+/*    HEADER STYLING ---------------------------HEADER------------- */
+
+.ul-header {
+  margin: 0;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+}
+nav ul a {
+  width: 8%;
+
+  text-align: center;
+
+  text-decoration: none;
+}
+nav ul li {
+  padding-top: 1.5vh;
+  height: 3vh;
+  list-style: none;
+  color: aliceblue;
+  margin-top: 3vh;
+  border: 1px solid aliceblue;
+}
+nav ul li:hover {
+  color: black;
+  background-color: aliceblue;
+}
+.header-page {
+  margin: 0;
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+}
+
+/*   STYLING HOME PAGE ----------------------------------- HOME PAGE----*/
+
+.home-page {
+  margin: 0;
+  background-image: url("./images/homeBG.jpg");
+  background-size: cover;
+  height: 89vh;
+  width: 100%;
+}
+
+/*----------------       ASTRONOMY COMPONENT-      -------------------------------*/
+
+.astronomy-content-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.date-picker {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+.astronomy-btn {
+  height: 4vh;
+  width: 8vw;
+  color: aliceblue;
+  background-color: black;
+  font-size: large;
+}
+.astronomy-btn:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+  color: black;
+}
+.astro-title,
+.astro-date {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.astro-explanation {
+  font-family: Arial, Helvetica, sans-serif;
+
+  width: 60%;
+  height: 90%;
+  margin-left: 10vw;
+  font-size: large;
+  line-height: 1.5;
+  font-weight: 100;
+  background-color: whitesmoke;
+  padding: 10px;
+  text-align: center;
+}
+
+/*  ------------------- Rover Styling---------------------MARS COMPONENT----------         */
+.rover-compo-container {
+  background-color: rgb(7, 5, 2);
+  display: grid;
+
+  gap: 10px;
+}
+.rover-container {
+  color: aliceblue;
+  text-align: center;
+}
+.rover-img {
+  width: 60%;
+  height: 500px;
+  padding: 10px;
+}
+.btn-bar-down {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+/*-------------------------------NASA MEDIA ( TEST API)-----------------------------*/
+.nasa-media-container {
+  margin-top: 2vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
+.nasa-media-btn {
+  display: block;
+  background-color: rgb(21, 40, 146);
+  padding: 10px;
+
+  margin: 5px 5px 5px;
+  margin-left: 6vw;
+}
+.nasa-media-content {
+  padding: 1vh;
+  border: 1px solid rgb(63, 59, 58);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(231, 230, 230);
+  border-radius: 20px;
+  box-shadow: 2px 1px;
+}
+.nasa-media-link {
+  text-decoration: none;
+  color: white;
+}
+.nasa-media-index {
+  color: black;
+}
+
+.img-des {
+  margin: 10px;
+  border-radius: 20px;
+}
+.par-des {
+  width: 90%;
+  text-align: center;
+  margin: 15px;
+}
+/*------------------------------CHART COMPONENT------------------------ */
+.graph-container {
+  padding-top: 5vh;
+  background-color: rgb(207, 210, 212);
+  height: 85vh;
+}
+.btn-container {
+  margin-left: 38vw;
+  margin-top: 3vh;
+}
+.line-btn,
+.bar-btn {
+  margin-right: 1vw;
+  height: 5vh;
+  width: 10vw;
+}
+.line-btn:hover,
+.bar-btn:hover {
+  background-color: black;
+  color: aliceblue;
+  cursor: pointer;
+}
+.graph-title {
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+}

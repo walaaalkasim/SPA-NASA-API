@@ -1,0 +1,49 @@
+//const countries = useRef(Country.getAllCountries());
+  //   const [countrySelect, setCountrySelect] = useState({
+  //     country: "",
+  //     flag: "",
+  //     countryCode: "",
+  //   });
+  //   const [states, setStates] = useState([]);
+  //   const [stateSelect, setStateSelect] = useState({ state: "", stateCode: "" });
+
+  //   //Cities
+  //   const [cities, setCities] = useState([]);
+  //   const [citySelect, setCitySelect] = useState("");
+
+  //   const [results, setResults] = useState({
+  //     data: {},
+  //     loading: true,
+  //     error: null,
+  //   });
+
+  //   useEffect(() => {
+  //     setStates(State.getStatesOfCountry(countrySelect.countryCode));
+  //     setResults({ data: {}, loading: true, error: null });
+  //   }, [countrySelect]);
+
+  //   useEffect(() => {
+  //     setCities(
+  //       City.getCitiesOfState(countrySelect.countryCode, stateSelect.stateCode)
+  //     );
+  //     setResults({ data: {}, loading: true, error: null });
+  //   }, [countrySelect, stateSelect]);
+
+  //   useEffect(() => {
+  //     fetch(URI)
+  //       .then((response) => response.json())
+  //       .then((data) => setResults({ data, loading: false, error: null }))
+  //       .catch((error) => setResults({ data: {}, loading: false, error }));
+  //   }, [URI]);
+
+
+"Coordinates": "26°3′S 114°40E"
+
+
+
+   //   console.log(State.getAllStates());
+   https://en.wikipedia.org/wiki/Amelia_Creek_crater
+
+
+
+   

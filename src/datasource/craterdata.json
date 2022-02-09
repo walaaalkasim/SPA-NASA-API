@@ -1,0 +1,354 @@
+[
+  {
+    "Name": "Acraman",
+    "Location": "South Australia",
+    "Country": "Australia",
+    "Diameter": 90,
+    "Age": 580,
+    "Coordinates": [-32.016667, 135.45]
+  },
+  {
+    "Name": "Amelia Creek",
+    "Location": "Northern Territory",
+    "Country": "Australia",
+    "Diameter": 20,
+    "Age": "600",
+    "Coordinates": [-20.916667, 134.833333]
+  },
+  {
+    "Name": "Araguainha",
+    "Location": "Central Brazil",
+    "Country": "Brazil",
+    "Diameter": 40,
+    "Age": 244.4,
+    "Coordinates": [-16.783333, -52.983333]
+  },
+  {
+    "Name": "Beaverhead",
+    "Location": "Idaho and Montana",
+    "Country": "United States",
+    "Diameter": 60,
+    "Age": 600,
+    "Coordinates":[44.25, -114]
+  },
+  {
+    "Name": "Boltysh",
+    "Location": "Kirovohrad Oblast",
+    "Country": "Ukraine",
+    "Diameter": 24,
+    "Age": 65.17,
+    "Coordinates": [48.9, 32.25]
+  },
+  {
+    "Name": "Carswell",
+    "Location": "Saskatchewan",
+    "Country": "Canada",
+    "Diameter": 39,
+    "Age": 115,
+    "Coordinates": [58.45, -109.5]
+  },
+  {
+    "Name": "Charlevoix",
+    "Location": "Quebec",
+    "Country": "Canada",
+    "Diameter": 54,
+    "Age": 342,
+    "Coordinates": [47.533333, -70.3]
+  },
+  {
+    "Name": "Chesapeake Bay",
+    "Location": "Virginia",
+    "Country": "United States",
+    "Diameter": 40,
+    "Age": "34.86 ",
+    "Coordinates": [37.283333, -76.016667]
+  },
+  {
+    "Name": "Chicxulub",
+    "Location": "Yucatán",
+    "Country": "Mexico",
+    "Diameter": 150,
+    "Age": "66.051",
+    "Coordinates": [21.333333, -89.5]
+  },
+  {
+    "Name": "Clearwater East",
+    "Location": "Quebec",
+    "Country": "Canada",
+    "Diameter": 26,
+    "Age": 290,
+    "Coordinates": [56.066667, -74.1]
+  },
+  {
+    "Name": "Clearwater West",
+    "Location": "Quebec",
+    "Country": "Canada",
+    "Diameter": 36,
+    "Age": 290,
+    "Coordinates": [56.216667, -74.5]
+  },
+  {
+    "Name": "Dhala",
+    "Location": "Madhya Pradesh",
+    "Country": "India",
+    "Diameter": "11",
+    "Age": "1700",
+    "Coordinates": [25.3, 78.133333]
+  },
+  {
+    "Name": "Gosses Bluff",
+    "Location": "Northern Territory",
+    "Country": "Australia",
+    "Diameter": 22,
+    "Age": 142.5,
+    "Coordinates": [-23.816667, 132.3]
+  },
+  {
+    "Name": "Haughton",
+    "Location": "Nunavut",
+    "Country": "Canada",
+    "Diameter": 23,
+    "Age": 39,
+    "Coordinates": [75.383333, -89.666667]
+  },
+  {
+    "Name": "Kamensk",
+    "Location": "Southern Federal District",
+    "Country": "Russia",
+    "Diameter": 25,
+    "Age": 49,
+    "Coordinates": [48.35, 40.5]
+  },
+  {
+    "Name": "Kara",
+    "Location": "Nenetsia",
+    "Country": "Russia",
+    "Diameter": 65,
+    "Age": 70.3,
+    "Coordinates":[69.1, 64.15]
+  },
+  {
+    "Name": "Karakul",
+    "Location": "Pamir Mountains",
+    "Country": "Tajikistan",
+    "Diameter": 52,
+    "Age": "5",
+    "Coordinates": [39.016667, 73.45]
+  },
+  {
+    "Name": "Keurusselkä",
+    "Location": "Western Finland",
+    "Country": "Finland",
+    "Diameter": 30,
+    "Age": "1400",
+    "Coordinates": [62.133333, 24.6]
+  },
+  {
+    "Name": "Lappajärvi",
+    "Location": "Western Finland",
+    "Country": "Finland",
+    "Diameter": 23,
+    "Age": "77.85 ",
+    "Coordinates":[63.2, 23.7]
+  },
+  {
+    "Name": "Logancha",
+    "Location": "Siberia",
+    "Country": "Russia",
+    "Diameter": 20,
+    "Age": 40,
+    "Coordinates": [65.516667, 95.933333]
+  },
+  {
+    "Name": "Manicouagan",
+    "Location": "Quebec",
+    "Country": "Canada",
+    "Diameter": 100,
+    "Age": "215.56",
+    "Coordinates": [51.383333, -68.7]
+  },
+  {
+    "Name": "Manson",
+    "Location": "Iowa",
+    "Country": "United States",
+    "Diameter": 35,
+    "Age": 74,
+    "Coordinates": [42.583333, -94.55]
+  },
+  {
+    "Name": "Mistastin",
+    "Location": "Newfoundland and Labrador",
+    "Country": "Canada",
+    "Diameter": 28,
+    "Age": 36.4,
+    "Coordinates": [55.883333, -63.3]
+  },
+  {
+    "Name": "Mjølnir",
+    "Location": "Barents Sea",
+    "Country": "Norway",
+    "Diameter": 40,
+    "Age": 142,
+    "Coordinates": [73.8, 29.666667]
+  },
+  {
+    "Name": "Montagnais",
+    "Location": "Nova Scotia",
+    "Country": "Canada",
+    "Diameter": 45,
+    "Age": 50.5,
+    "Coordinates": [42.883333, -64.216667]
+  },
+  {
+    "Name": "Morokweng",
+    "Location": "Kalahari Desert",
+    "Country": "South Africa",
+    "Diameter": 70,
+    "Age": "146.06",
+    "Coordinates":[-26.466667, 23.533333]
+  },
+  {
+    "Name": "Nördlinger Ries",
+    "Location": "Bavaria, Baden-Württemberg",
+    "Country": "Germany",
+    "Diameter": 24,
+    "Age": "14.808 ",
+    "Coordinates": [48.883333, 10.566667]
+  },
+  {
+    "Name": "Obolon'",
+    "Location": "Poltava Oblast",
+    "Country": "Ukraine",
+    "Diameter": 20,
+    "Age": 169,
+    "Coordinates": [49.583333, 32.916667]
+  },
+  {
+    "Name": "Popigai",
+    "Location": "Siberia",
+    "Country": "Russia",
+    "Diameter": 100,
+    "Age": "35.7",
+    "Coordinates": [71.65, 111.183333]
+  },
+  {
+    "Name": "Presqu'île",
+    "Location": "Quebec",
+    "Country": "Canada",
+    "Diameter": 24,
+    "Age": "500",
+    "Coordinates": [49.716667, -74.8]
+  },
+  {
+    "Name": "Puchezh-Katunki",
+    "Location": "Nizhny Novgorod Oblast",
+    "Country": "Russia",
+    "Diameter": 40,
+    "Age": "195.9",
+    "Coordinates": [56.966667, 43.716667]
+  },
+  {
+    "Name": "Rochechouart",
+    "Location": "France",
+    "Country": "France",
+    "Diameter": 23,
+    "Age": "206.92",
+    "Coordinates": [45.816667, 0.783333]
+  },
+  {
+    "Name": "Saint Martin",
+    "Location": "Manitoba",
+    "Country": "Canada",
+    "Diameter": 40,
+    "Age": "227.8",
+    "Coordinates": [51.783333, -98.533333]
+  },
+  {
+    "Name": "Shoemaker",
+    "Location": "Western Australia",
+    "Country": "Australia",
+    "Diameter": 30,
+    "Age": "1630",
+    "Coordinates": [-25.866667, 120.883333]
+  },
+  {
+    "Name": "Siljan Ring",
+    "Location": "Dalarna",
+    "Country": "Sweden",
+    "Diameter": 52,
+    "Age": 377,
+    "Coordinates": [61.033333, 14.866667]
+  },
+  {
+    "Name": "Slate Islands",
+    "Location": "Ontario",
+    "Country": "Canada",
+    "Diameter": 30,
+    "Age": 450,
+    "Coordinates": [48.666667, -87]
+  },
+  {
+    "Name": "Steen River",
+    "Location": "Alberta",
+    "Country": "Canada",
+    "Diameter": 25,
+    "Age": 91,
+    "Coordinates": [59.5, -117.633333]
+  },
+  {
+    "Name": "Strangways",
+    "Location": "Northern Territory",
+    "Country": "Australia",
+    "Diameter": 25,
+    "Age": 646,
+    "Coordinates": [-15.2, 133.583333]
+  },
+  {
+    "Name": "Sudbury",
+    "Location": "Ontario",
+    "Country": "Canada",
+    "Diameter": 130,
+    "Age": 1849,
+    "Coordinates":[46.6, -81.183333]
+  },
+  {
+    "Name": "Tookoonooka",
+    "Location": "Queensland",
+    "Country": "Australia",
+    "Diameter": 55,
+    "Age": "112",
+    "Coordinates": [-27.116667, 142.833333]
+  },
+  {
+    "Name": "Tunnunik",
+    "Location": "Northwest Territories",
+    "Country": "Canada",
+    "Diameter": 25,
+    "Age": "130",
+    "Coordinates": [72.466667, -113.966667]
+  },
+  {
+    "Name": "Vredefort",
+    "Location": "Free State",
+    "Country": "South Africa",
+    "Diameter": 160,
+    "Age": 2023,
+    "Coordinates": [-27, 27.5]
+  },
+  {
+    "Name": "Woodleigh",
+    "Location": "Western Australia",
+    "Country": "Australia",
+    "Diameter": 40,
+    "Age": 364,
+    "Coordinates": [-26.05, 114.666667]
+  },
+  {
+    "Name": "Yarrabubba",
+    "Location": "Western Australia",
+    "Country": "Australia",
+    "Diameter": 30,
+    "Age": 2229,
+    "Coordinates": [-27.166667, 118.833333]
+  }
+]
