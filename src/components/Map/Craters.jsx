@@ -33,7 +33,7 @@ const Craters = () => {
                   </div>
                   <button className="more-info-btn">
                     <a
-                      href={`https://google.com/search?q=${item.Name} crater&${item.Location}`}
+                      href={`https://google.com/search?q=${item.Name} crater&${item.Location}&tbm=isch`}
                       target="_blank"
                       rel="noreferrer"
                     >

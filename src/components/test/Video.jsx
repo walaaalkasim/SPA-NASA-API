@@ -29,7 +29,7 @@ const Video = ({ link, img, i }) => {
         {videolink && (
           <div>
             {img && <img src={img} alt="" />}
-            {!img && <img src={imgPlaceholder} alt="" />}
+
             <button className="nasa-media-btn">
               <a className="nasa-media-link" href={videolink}>
                 {" "}
